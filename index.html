@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson 33 homework</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1
+      style="
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        margin-top: 60px;
+      "
+    >
+      Welcome to <span style="color: #f3b241">Pricing Calculator</span>
+    </h1>
+    <h2
+      style="
+        font-size: 27px;
+        text-transform: capitalize;
+        color: rgb(202, 199, 199);
+        text-align: center;
+        margin-top: -20px;
+      "
+    >
+      In This Website You can easyly Calculate orders of customers in every
+      Restaurants
+    </h2>
+    <div class="form" style="display: flex">
+      <!-- <input type="text" name="name" id="name" placeholder="Name" />
+      <input type="tel" name="price" id="price" placeholder="Price" /> -->
+      <select onclick="hover()" id="foods"></select>
+
+      <button class="addOrderbtn" onclick="addFood()">Add</button>
+    </div>
+
+    <table id="table"></table>
+
+    <!----javascript link-->
+    <script src="index.js"></script>
+  </body>
+</html>
